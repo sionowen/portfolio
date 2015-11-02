@@ -4,13 +4,44 @@
     <meta charset="utf-8">
     <title>Untitled</title>
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="sass/main.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, iste laudantium eveniet tempora veniam tempore! Laboriosam inventore facere quam dolorem maiores, in et eum. Porro harum, quo cum fuga ipsa!
-    </p>
-    <a href="templates/spark-starter.html">click me</a>
+    <div class="navbar navbar-default navbar-fixed-top" role="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>          
+          </button>
+          <a class="navbar-brand" href="#">Sion Owen Development</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Profesional</li>
+                <li><a href="templates/spark-starter.html">SparkStarter</a></li>
+                <!-- <li><a href="#">Nomadic Audio</a></li> -->
+                <li class="dropdown-header">Educational</li>
+                <li><a href="templates/chation.html">Chation</a></li>
+              </ul>
+            </li>
+            <li><a href="templates/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class= "introduction">
+      <p>
+        I am a web developer working in the Minneapolis area. I love building websites and working with a team of developers to solve interesting problems. As a front end developer I love doing everything from building templates to writing andular logic. I have trained in the MEAN stack at RefactorU, a boulder based web development bootcamp. I am proficient in functional coding using Javascript with jQuery. Moderate knowledge of javascript object oriented coding. I am also proficient at building javascript based mobile apps using  the Ionic Framework with Angular.js. If you are interested in having me build you a website or application, or if you are interested hiring someone for your development team please navigate to the contact page. 
+      </p>
+    </div>
+
     <script type="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-animate.min.js">
     </script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -18,5 +49,6 @@
     </script>
     <script src="js/main.js">
     </script>
+
   </body>
 </html>
