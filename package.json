@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/sionowen/portfolio/issues"
   },
-  "homepage": "https://github.com/sionowen/portfolio",
+  "homepage": "https://sionowendev.com",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-sass": "^1.1.0-beta",
